@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.bg {
+    background: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text{
+    color: white;
+    font-size: 1.6rem;
+    width: 40%;
+    margin-right: 50px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.form div{
+    padding: 20px 0px;
+}
+
+input { 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px gray solid;
+    height: 25px;
+}
+
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px gray solid;
+    font-family: Helvetica, sans-serif;
+}
+
+button{
+    background-color: rgb(53, 176, 114);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.filledfield{
+    border: 1px rgb(53, 176, 114) solid;
+}
+
+.invalid{
+    border: 1px  red solid;
+
+}
+
+
+
